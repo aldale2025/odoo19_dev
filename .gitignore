@@ -10,6 +10,8 @@
 *.userosscache
 *.sln.docstates
 *.env
+*.venv/
+uv.lock
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -416,3 +418,6 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# odoo19 ignores
+data/*
